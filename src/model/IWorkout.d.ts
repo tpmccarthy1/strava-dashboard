@@ -1,0 +1,34 @@
+export interface IWorkout {
+    achievement_count: number;
+    athlete: {id: number, resource_state: number};
+    athlete_count: number;
+    average_cadence: number;
+    average_heartrate: number;
+    average_speed: number;
+    comment_count: number;
+    commute: boolean;
+    display_hide_heartrate_option: boolean;
+    distance: number;
+    elapsed_time: number;
+    elev_high: number;
+    elev_low: number;
+    end_latlng: number[];
+    flagged: boolean;
+    from_accepted_tag: boolean;
+    gear_id?: number;
+    has_heartrate: boolean;
+    has_kudoed: boolean;
+    heartrate_opt_out: false;
+    id: number;
+    kudos_count: 0;
+    location_city?: string;
+    location_country?: string;
+    location_state?: string;
+    manual: boolean;
+    name: string;
+    start_date: date;
+    start_latitude: number;
+    start_latlng: number[];
+    start_longitude: number;
+    type: string;
+}
